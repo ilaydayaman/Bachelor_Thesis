@@ -1,3 +1,3 @@
-# Bachelor-Thesis
+# Bachelor Thesis
 
 Our hardware design generates true random numbers and these numbers are tested inside the specified board which is ZedBoard Zynq-7000 ARM/FPGA SoC Development Board by our software design. Hardware section includes generating random numbers by a custom hardware and software section that has compiled NIST Tests to test random numbers created. The random number generator was implemented with the help of Hardware Description Language, Verilog, and Vivado Design Suite. In software part, using Xilinx SDK to compile NIST tests wasn’t enough so a solution is developed by extensive research; which is running Linux as an operating system. Creating the image of Linux is done by PetaLinux Tool. As a result, NIST Tests are compiled with the Linux operating system and booted from the SD Card. 
